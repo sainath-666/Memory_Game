@@ -2,9 +2,9 @@
 
 # 🧠 Memory Game
 
-### [🎮 PLAY THE GAME](https://sainath-666.github.io/Memory-Game/)
+### [🎮 PLAY THE GAME](https://sainath-666.github.io/Memory_Game/)
 
-![Memory Game Preview](https://i.imgur.com/JQvSGnS.png)
+![Memory Game Preview](Preview.png)
 
 </div>
 
