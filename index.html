@@ -3,25 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Game</title>
+    <title>Memory Game | Sainathreddy</title>
+    <meta name="description" content="A modern memory card matching game built with HTML, CSS, and JavaScript">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Memory Game</h1>
-    <div class="game-info">
-        <p>Moves: <span id="moves">0</span></p>
-        <p>Timer: <span id="timer">0</span> seconds</p>
+    <div class="container">
+        <h1><i class="fas fa-brain"></i> Memory Game</h1>
+        
+        <div class="game-info">
+            <p><i class="fas fa-chess-pawn"></i> Moves: <span id="moves">0</span></p>
+            <p><i class="fas fa-clock"></i> Timer: <span id="timer">0</span> seconds</p>
+        </div>
+        
+        <button id="restart-btn" class="restart-btn">
+            <i class="fas fa-redo"></i> Restart Game
+        </button>
+        
+        <div class="game-board" id="game-board"></div>
+        
+        <div id="win-container"></div>
     </div>
-    <button id="restart-btn" class="restart-btn">Restart Game</button>
-    <div class="game-board" id="game-board"></div>
 
     <!-- Footer Section -->
     <footer>
-        <p>Designed by <span>Sainathreddy</span></p>
         <p>
-            <a href="https://www.linkedin.com/in/sainath666" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/sainath-666" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sainath666" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+            <a href="https://github.com/sainath-666" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
         </p>
+        <div align="center">
+            <p>Made with ❤️ by Sainathreddy</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
